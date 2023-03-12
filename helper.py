@@ -6,7 +6,7 @@ import random
 
 r = sr.Recognizer()
 greetings = ["Здравствуйте!","Приветик!", "Привет, пупсик!", "Привет, как дела?"]
-films = ["Титаник","Смешарики","Джуманджи","Я чурка"]
+films = ["Кухня","Смешарики","Джуманджи","Я чурка"]
 while True:
     with sr.Microphone(device_index=1) as source: 
         print("Скажите что-нибудь ...")
